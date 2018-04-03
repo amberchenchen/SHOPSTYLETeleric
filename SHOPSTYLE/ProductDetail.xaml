@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:SHOPSTYLE" 
+		xmlns:primitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"
+		x:Class="SHOPSTYLE.ProductDetail">
+	<ContentPage.BindingContext>
+        <local:ProductDetailViewModel/>
+    </ContentPage.BindingContext>
+    <Grid BackgroundColor="White">
+        <Grid Grid.ColumnSpacing="0" Grid.RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <primitives:RadSlideView x:Name="slideView" SelectedIndicatorColor="#3148CA" IsInfiniteScrollingEnabled="True" ItemsSource="{Binding Images}"/>
+            <StackLayout Grid.Row="1" Margin="36">
+                <Label Text="RadSlideView" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="From stock tickers and news scrollers, to product spotlights the RadSlideView control delivers high interactivity and user involvment. It allows extensive customizations in terms of functionality and appearance." />
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

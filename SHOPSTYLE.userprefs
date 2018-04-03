@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{69F1B898-2237-494F-BA29-D77FF2CE8D57}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SHOPSTYLE/SHOPSTYLEPage.xaml">
+    <Files>
+      <File FileName="SHOPSTYLE/SHOPSTYLEPage.xaml" Line="14" Column="28" />
+      <File FileName="SHOPSTYLE/SHOPSTYLEPage.xaml.cs" Line="61" Column="5" />
+      <File FileName="SHOPSTYLE/ProductDetail.xaml.cs" Line="15" Column="2" />
+      <File FileName="SHOPSTYLE/ProductDetail.xaml" Line="22" Column="16" />
+      <File FileName="SHOPSTYLE/ProductDetailViewModel.cs" Line="6" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SHOPSTYLE.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SHOPSTYLE.Droid PreferredExecutionTarget="Android.Nexus7" />
+</Properties>
